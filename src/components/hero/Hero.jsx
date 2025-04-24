@@ -11,7 +11,7 @@ const HeroSection = ({ onShopClick }) => {
       if (categorySection) {
         categorySection.scrollIntoView({ behavior: 'smooth' });
       }
-    }, 100); // wait for DOM to render
+    }, 100); 
   };
 
   return (

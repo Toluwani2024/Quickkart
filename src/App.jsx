@@ -15,7 +15,7 @@ const App = () => {
           <Route path="/products/:subcategory" element={<ProductListingPage />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
-        <Footer /> {/* ✅ Add this so footer appears on every page */}
+        <Footer /> {/*  Add this so footer appears on every page */}
       </>
     </Router>
   );

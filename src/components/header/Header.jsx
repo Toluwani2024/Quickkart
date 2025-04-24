@@ -9,7 +9,7 @@ import CartDrawer from '../cart/CartDrawer';
 const Header = () => {
   const [showCartDropdown, setShowCartDropdown] = useState(false);
   const [showUserDropdown, setShowUserDropdown] = useState(false);
-  const [isCartOpen, setCartOpen] = useState(false); // ✅ Moved here
+  const [isCartOpen, setCartOpen] = useState(false); 
 
   const cartItems = useSelector((state) => state.cart.items);
   const totalQuantity = cartItems.reduce((sum, item) => sum + item.quantity, 0);
@@ -44,7 +44,7 @@ const Header = () => {
                     <p>{item.name} x {quantity}</p>
                   </div>
                 ))}
-                {/* ✅ Button to open the Drawer */}
+                {/*  Button to open the Drawer */}
                 <button
                   className="go-to-cart-button"
                   onClick={() => {
@@ -62,7 +62,7 @@ const Header = () => {
         )}
       </div>
 
-      {/* ✅ Cart Drawer */}
+      {/* Cart Drawer */}
       <CartDrawer isOpen={isCartOpen} onClose={() => setCartOpen(false)} />
 
       <div

@@ -1,10 +1,10 @@
-// src/Pages/ProductListingPage.jsx
+
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addItem } from '../redux/cartSlice';
 import products from '../data/products';
-import './ProductCategoryPage.css'; // Reuse same styling
+import './ProductCategoryPage.css'; 
 import { useSelector } from 'react-redux';
 
 const ProductListingPage = () => {
@@ -14,7 +14,6 @@ const ProductListingPage = () => {
 console.log("Cart Items:", cartItems);
 
 
-  // Filter products across all categories by subcategory name
   const filteredProducts = Object.values(products)
     .flat()
     .filter((product) => product.name.toLowerCase().includes(subcategory.toLowerCase()));

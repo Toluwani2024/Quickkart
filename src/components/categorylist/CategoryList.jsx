@@ -3,13 +3,13 @@ import './categoryList.css';
 import { useDispatch } from 'react-redux';
 import { addItem } from '../../redux/cartSlice';
 import products from "../../data/products";
-import { useSelector } from 'react-redux'; // 👈 Add this
+import { useSelector } from 'react-redux'; 
 
 
 const CategoryList = () => {
   const dispatch = useDispatch();
-  const cartItems = useSelector((state) => state.cart.items); // 👈 Get items from cart state
-console.log("Cart Items:", cartItems); // 👈 Log to see live updates
+  const cartItems = useSelector((state) => state.cart.items); // Get items from cart state
+console.log("Cart Items:", cartItems); // Log to see live updates
 
 
   const handleAdd = (category, product) => {
