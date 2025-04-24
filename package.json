@@ -1,5 +1,5 @@
 {
-  "name": "quickkart",  
+  "name": "quickkart",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +13,6 @@
     "@reduxjs/toolkit": "^2.6.1",
     "framer-motion": "^12.9.1",
     "react": "^19.0.0",
-
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-redux": "^9.2.0",
@@ -28,6 +27,6 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
-    "vite": "^6.2.0"
+    "vite": "^6.3.3"
   }
 }
