@@ -1,0 +1,25 @@
+.cart {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cart-item {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-item p {
+  margin: 0;
+}
+
+.cart-item button {
+  margin-top: 0.5rem;
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
