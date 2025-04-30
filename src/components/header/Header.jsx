@@ -3,7 +3,6 @@ import './header.css';
 import logo from '../../assets/logo.jpg';
 import { FaShoppingCart, FaUserCircle } from 'react-icons/fa';
 import { useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
 import CartDrawer from '../cart/CartDrawer';
 
 const Header = () => {
