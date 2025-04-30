@@ -7,7 +7,7 @@ import Footer from './components/footer/Footer';
 
 const App = () => {
   return (
-    <Router basename="/quickkart" >
+    <Router >
       <>
         <Routes>
           <Route path="/" element={<Home />} />
