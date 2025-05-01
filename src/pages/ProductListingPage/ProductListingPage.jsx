@@ -1,22 +1,23 @@
-
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
-import { addItem } from '../redux/cartSlice';
-import products from '../data/products';
-// import './ProductCategoryPage.css'; 
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { addItem } from '../../redux/cartSlice';
+import products from '../../data/products';
+     // same here for alias
+// import './ProductListingPage.css'; // Optional: uncomment if you have styles
 
 const ProductListingPage = () => {
   const { subcategory } = useParams();
   const dispatch = useDispatch();
   const cartItems = useSelector((state) => state.cart.items);
-console.log("Cart Items:", cartItems);
 
+  console.log("Cart Items:", cartItems);
 
   const filteredProducts = Object.values(products)
     .flat()
-    .filter((product) => product.name.toLowerCase().includes(subcategory.toLowerCase()));
+    .filter((product) =>
+      product.name.toLowerCase().includes(subcategory.toLowerCase())
+    );
 
   const handleAddToCart = (product) => {
     dispatch(addItem({ category: subcategory, item: product }));

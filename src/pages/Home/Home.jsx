@@ -1,7 +1,8 @@
 import React, { useState } from 'react'; 
-import Header from '..src//components/header/Header';
-import Hero from '../src/components/hero/Hero';
-import CategoryList from '../components/categorylist/CategoryList';
+import Header from '../../components/header/Header';
+import Hero from '../../components/hero/Hero';
+import CategoryList from '../../components/categorylist/CategoryList';
+
 
 const Home = () => {
   const [showProducts, setShowProducts] = useState(false); // new state

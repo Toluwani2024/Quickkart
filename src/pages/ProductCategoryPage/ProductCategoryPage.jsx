@@ -1,9 +1,10 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { addItem } from '../redux/cartSlice';
-import products from '../data/products';
+import { addItem } from '../../redux/cartSlice';
+import products from '../../data/products';
 import './productCategoryPage.css';
+
 
 const ProductCategoryPage = () => {
   const { category } = useParams();

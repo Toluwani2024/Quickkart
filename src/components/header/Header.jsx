@@ -3,7 +3,8 @@ import './header.css';
 import logo from '../../assets/logo.jpg';
 import { FaShoppingCart, FaUserCircle } from 'react-icons/fa';
 import { useSelector } from 'react-redux';
-import CartDrawer from '../cart/CartDrawer';
+import CartDrawer from '../cartDrawer/CartDrawer';
+
 
 const Header = () => {
   const [showCartDropdown, setShowCartDropdown] = useState(false);
