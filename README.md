@@ -1,12 +1,35 @@
-# React + Vite
+# QuickKart – Mini E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A sleek, responsive shopping cart application built with React and Redux.  
+> Users can browse products, filter by category, add items to the cart, and checkout — all in a clean, user-friendly interface.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Screenshot (455)](https://github.com/user-attachments/assets/2c3c1557-e10e-4777-a5e4-746ddaaa4e5a)
+![Screenshot (456)](https://github.com/user-attachments/assets/223ae045-c924-4747-8fb7-4cfb1e152c87)
+![Screenshot (457)](https://github.com/user-attachments/assets/ea9cc07c-b702-4249-b5f9-887e0ceebf3e)
+
+
+
+
+
+ Tech Stack
+- React (Vite)
+- Redux Toolkit
+- React Router
+- Custom CSS
+- Local Storage
+
+---
+
+ Features
+-  Filter products by category
+-  Add to Cart, adjust quantity
+-  Cart saved in local storage
+-  Fully responsive design
+-  Fast performance with Vite
+
+---
+
+
